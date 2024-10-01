@@ -14,4 +14,4 @@ for num in range(0, num_pages): #iterating through all pages
     play.say(data)
     play.runAndWait()
 
-    # Coded with 💙 by Mr. Unity Buddy
+    # Coded with 💙 by Mr . Unity Buddy
