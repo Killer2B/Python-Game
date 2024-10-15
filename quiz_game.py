@@ -48,8 +48,8 @@ if ans.lower() == "yes":
         print("Correct")
     else:
         print("Incorrect")
-Code language: PHP (php)
-Now as we are done with the questions it’s time to show the scores to the user. I will multiply the score with 10 and then I will pass the if-else conditionals to print the status of the result of this Quiz game:
+#Code language: PHP (php)
+#Now as we are done with the questions it’s time to show the scores to the user. I will multiply the score with 10 and then I will pass the if-else conditionals to print the status of the result of this Quiz game:
 
 i = score*10
 if i &lt; 30:
@@ -59,4 +59,4 @@ elif i ==30:
 else:
     print("Congratulations! it's a perfect ",i,"/ 40 you are Intelligent.")
     
-# Coded with 💙 by X
+# Coded with 💙 by Mr. Unity Buddy
