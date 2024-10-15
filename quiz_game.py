@@ -48,11 +48,11 @@ if ans.lower() == "yes":
         print("Correct")
     else:
         print("Incorrect")
-#Code language: PHP (php)
-#Now as we are done with the questions it’s time to show the scores to the user. I will multiply the score with 10 and then I will pass the if-else conditionals to print the status of the result of this Quiz game:
+Code language: PHP (php) # type: ignore
+Now as we are done with the questions it’s time to show the scores to the user. I will multiply the score with 10 and then I will pass the if-else conditionals to print the status of the result of this Quiz game: # type: ignore
 
 i = score*10
-if i &lt; 30:
+if i &lt; 30: # type: ignore
     print("Ouch, your score is ",i,"/ 40 better luck next time.")
 elif i ==30:
     print("Nice! you scored ",i,"/ 40 you are quiet smart.")
